@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Telas de Consulta</title>
+</head>
+
+<body>
+    <div>
+        <div><h1 id="titulo">TELAS SICONCARD</h1></div>
+        <div class="container">
+            <button onclick="mostrarMensagem('Limite')">Consultar Saldo</button>
+            <button onclick="mostrarMensagem('Desbloquear')">Desbloquear Cartão</button>
+            <button onclick="mostrarMensagem('RecuperarSenha')">Recuperar Senha do Cartão</button>
+            <button onclick="mostrarMensagem('ConsultaUsuarios')">Usuário e Senha Do aplicativo</button>
+            <button onclick="mostrarMensagem('ConsultaEsteira')">Consultar Status do Cartão, Bloqueio/Cancelamento</button>
+            <button onclick="mostrarMensagem('LoteRecarga')">Consultar se o valor dos beneficiários já foiliberado</button>
+            <button onclick="mostrarMensagem('InformacoesGerais')">Verificar se o benficiário efetuou ou não a Compra</button>
+            <button onclick="mostrarMensagem('SolicitaçãoCartãoProvisorio')">Solicitação Cartão Provisorio</button>
+        </div>
+        <div id="mensagemContainer">
+            <p id="mensagem"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

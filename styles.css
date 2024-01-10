@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aaabae;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    border-bottom: 3px solid white;
+    padding: 40px 0 40px 250px;
+    font-size: 38pt;
+    background: linear-gradient(to right, rgba(255, 3, 3, 0.963), rgba(255, 255, 255, 0.864));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container {
+    background-color: #333;
+    width: 30vw;
+    height: 100vh;
+    padding: 30px 20px 0 15px;
+    gap: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position: absolute;
+    border-right: 4px solid white;
+}
+
+button {
+    margin: 10px;
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#mensagemContainer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 21%;
+    margin-left: 42%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#mensagem {
+    font-size: 20px;
+    color: #333;
+}
+
+#logo {
+    position: relative;
+    scale: 0.4;
+}
